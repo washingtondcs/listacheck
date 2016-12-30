@@ -1,11 +1,6 @@
-![CSCore Logo](http://mawasol.com.br/listacheck/imgs/logoCheck2.png)
 
-##########
-ListaCheck
-##########
-******************************
-Sistema de Controle de Tarefas
-******************************
+###ListaCheck
+###Sistema de Controle de Tarefas
 
 ###########
 1 MOTIVAÇÃO
