@@ -1,4 +1,4 @@
-![CSCore Logo](http://http://mawasol.com.br/listacheck/imgs/logoCheck.png)
+![CSCore Logo](http://mawasol.com.br/listacheck/imgs/logoCheck.png)
 ##########
 ListaCheck
 ##########
