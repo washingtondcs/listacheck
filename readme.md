@@ -16,33 +16,24 @@ f) Deletar tarefa.
 
 Foi permitida a utilização de frameworks de back-end e front-end para o desenvolvimento do projeto.
 
-################################
-2 SOBRE A APLICAÇÃO DESENVOLVIDA
-################################
+
+#2 SOBRE A APLICAÇÃO DESENVOLVIDA#
 
 Foi utilizada a linguagem de programação PHP, juntamente com os frameworks de front-end: Bootstrap v3.3.7(última versão disponível) e back-end CodeIgniter v3.1.2 (última versão disponível), aliados ao uso da linguagem de marcação de folhas de estilos CSS 3, HTML5, além do uso de trechos em JQuery. O layout da aplicação levou em consideração o conceito de mobile-first, já primariamente dotado pelo framework bootstrap, assim como a diagramação das páginas através do sistema de grids adotado pelo mesmo. Tornando assim o sistema responsivo e adaptado aos mais variados tamanhos de resolução. Através do CodeIgniter foi utilizado o padrão de arquitetura MVC (Model-View-Controler) para a entidade tarefas. O arquivo com os registros realizados pelo sistema pode ser encontrado dentro do diretório raiz da aplicação dados/registros.db, as demais pastas principais estão na pasta application (ex: controllers,models e views).
 
-****************************
-2.1 Sobre as funcionalidades
-****************************
+#2.1 Sobre as funcionalidades#
 
 O acesso as funcionalidades principais do sistema é provido através da view tarefas/index, como: adicionar, listar, marcar como concluída, excluir, editar. A view editar trata do formuláio de edição da tarefa e também pode ser utilizada para marcar a tarefa como concluída, no entanto, é através de seu uso o único modo de reabrir a tarefa como não concluída, desmarcando o checkbox concluído. Caso a tarefa seja finalizada através do painel de Ações da view principal tarefas/index, o botão de finalizar tarefa será desabilitado para aquela tarefa especifica.
 
-********************************
-2.1.1 Funcionalidades Adicionais
-********************************
+#2.1.1 Funcionalidades Adicionais#
 
 Foram adicionadas algumas funcionalidades como geração de relatórios de tarefas, demonstrando o uso de responsive utilities do framework Bootstrap, no qual é possível diferenciar as informações que serão usadas em momento de impressão e as informações visualizadas em tela. Otra funcionalidade é o status de tarefas, gerando uma janela modal que apresenta o status em percentual de tarefas concluídas e não concluídas conforme o total de tarefas cadastradas. Foi inserido um contador de registros para as tarefas cadastrados.
 
-####################
-3 LOGOMARCA FICTÍCIA
-####################
+#3 LOGOMARCA FICTÍCIA#
 
 Para o desenvolvimento do projeto foi criada uma marca fictícia ListaCheck, apenas para identificar o projeto e ilustrar algumas funcionalidades de responsividade com imagens, sendo a mesma de minha autoria. Para tanto foi utilizado o software Corel DrawX8 (Última versão disponível), sobre a licença de avaliação gratuita de 30 dias
 
-###############
-4 CONSIDERAÇÕES
-###############
+#4 CONSIDERAÇÕES#
 
 No mais, espero ter atendido as expectativas e requisitos do projeto. Quero dizer que me diverti ao produzi-lo. Fico no aguardo de algum contato sobre o processo seletivo e fiquem com Deus, FELIZ ANO NOVO!
 
