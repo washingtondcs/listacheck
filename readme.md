@@ -6,12 +6,12 @@
 Este sistema web foi desenvolvido entre os dias 27 e 29 de dezembro de 2016 por mim, Washington da Costa Silva. E sua principal finalidade é servir como quesito de avaliação ao processo seletivo do cargo de Programador PHP Júnior, processo esse, promovido pelo órgão estadual Funceme - Fundação Cearense de Meteorologia e Recursos Hídricos. Nesta fase do processo de seleção, o desafio era criar uma aplicação web simples de gerenciamento de tarefas, no estilo to-do list.
 
 Requisitos básicos do projeto:
-a) Persistência dos registros em arquivo.
-b) Criação de tarefas no sistema.
-c) Visualizar a lista de tarefas.
-d) Marcar como feita (concluída), as tarefas.
-e) Editar tarefa.
-f) Deletar tarefa.
+- a) Persistência dos registros em arquivo.
+- b) Criação de tarefas no sistema.
+- c) Visualizar a lista de tarefas.
+- d) Marcar como feita (concluída), as tarefas.
+- e) Editar tarefa.
+- f) Deletar tarefa.
 
 Foi permitida a utilização de frameworks de back-end e front-end para o desenvolvimento do projeto.
 
