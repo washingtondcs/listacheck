@@ -1,70 +1,42 @@
-###################
-What is CodeIgniter
-###################
+##########
+ListaCheck
+##########
+Sistema de Controle de Tarefas
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+1 MOTIVAÇÃO
 
-*******************
-Release Information
-*******************
+Este sistema web foi desenvolvido entre os dias 27 e 29 de dezembro de 2016 por mim, Washington da Costa Silva. E sua principal finalidade é servir como quesito de avaliação ao processo seletivo do cargo de Programador PHP Júnior, processo esse, promovido pelo órgão estadual Funceme - Fundação Cearense de Meteorologia e Recursos Hídricos. Nesta fase do processo de seleção, o desafio era criar uma aplicação web simples de gerenciamento de tarefas, no estilo to-do list.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Requisitos básicos do projeto:
+a) Persistência dos registros em arquivo.
+b) Criação de tarefas no sistema.
+c) Visualizar a lista de tarefas.
+d) Marcar como feita (concluída), as tarefas.
+e) Editar tarefa.
+f) Deletar tarefa.
 
-**************************
-Changelog and New Features
-**************************
+Foi permitida a utilização de frameworks de back-end e front-end para o desenvolvimento do projeto.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+2 SOBRE A APLICAÇÃO DESENVOLVIDA
 
-*******************
-Server Requirements
-*******************
+Foi utilizada a linguagem de programação PHP, juntamente com os frameworks de front-end: Bootstrap v3.3.7(última versão disponível) e back-end CodeIgniter v3.1.2 (última versão disponível), aliados ao uso da linguagem de marcação de folhas de estilos CSS 3, HTML5, além do uso de trechos em JQuery. O layout da aplicação levou em consideração o conceito de mobile-first, já primariamente dotado pelo framework bootstrap, assim como a diagramação das páginas através do sistema de grids adotado pelo mesmo. Tornando assim o sistema responsivo e adaptado aos mais variados tamanhos de resolução. Através do CodeIgniter foi utilizado o padrão de arquitetura MVC (Model-View-Controler) para a entidade tarefas. O arquivo com os registros realizados pelo sistema pode ser encontrado dentro do diretório raiz da aplicação dados/registros.db, as demais pastas principais estão na pasta application (ex: controllers,models e views).
 
-PHP version 5.6 or newer is recommended.
+2.1 Sobre as funcionalidades
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+O acesso as funcionalidades principais do sistema é provido através da view tarefas/index, como: adicionar, listar, marcar como concluída, excluir, editar. A view editar trata do formuláio de edição da tarefa e também pode ser utilizada para marcar a tarefa como concluída, no entanto, é através de seu uso o único modo de reabrir a tarefa como não concluída, desmarcando o checkbox concluído. Caso a tarefa seja finalizada através do painel de Ações da view principal tarefas/index, o botão de finalizar tarefa será desabilitado para aquela tarefa especifica.
 
-************
-Installation
-************
+2.1.1 Funcionalidades Adicionais
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Foram adicionadas algumas funcionalidades como geração de relatórios de tarefas, demonstrando o uso de responsive utilities do framework Bootstrap, no qual é possível diferenciar as informações que serão usadas em momento de impressão e as informações visualizadas em tela. Otra funcionalidade é o status de tarefas, gerando uma janela modal que apresenta o status em percentual de tarefas concluídas e não concluídas conforme o total de tarefas cadastradas. Foi inserido um contador de registros para as tarefas cadastrados.
 
-*******
-License
-*******
+3 LOGOMARCA FICTÍCIA
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+Para o desenvolvimento do projeto foi criada uma marca fictícia ListaCheck, apenas para identificar o projeto e ilustrar algumas funcionalidades de responsividade com imagens, sendo a mesma de minha autoria. Para tanto foi utilizado o software Corel DrawX8 (Última versão disponível), sobre a licença de avaliação gratuita de 30 dias
 
-*********
-Resources
-*********
+4 CONSIDERAÇÕES
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
+No mais, espero ter atendido as expectativas e requisitos do projeto. Quero dizer que me diverti ao produzi-lo. Fico no aguardo de algum contato sobre o processo seletivo e fiquem com Deus, FELIZ ANO NOVO!
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+Buscando sempre a satisfação de vencer desafios, encontrei na área de T.I. a minha vocação para contribuir com a sociedade de forma plena e objetiva.
 
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Washington da Costa Silva
