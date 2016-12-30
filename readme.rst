@@ -1,4 +1,4 @@
-<img src="https://cloud.githubusercontent.com/assets/17282308/21560744/a10b7bc2-ce4a-11e6-8a56-553a16d57ec6.png" width="23%"></img> 
+<img src="https://cloud.githubusercontent.com/assets/17282308/21560764/ebd79726-ce4a-11e6-8007-823fcac7a16b.png" width="30%"></img> 
 
 ----------
 ListaCheck
