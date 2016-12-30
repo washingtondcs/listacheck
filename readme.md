@@ -1,6 +1,5 @@
 <img src="https://cloud.githubusercontent.com/assets/17282308/21560764/ebd79726-ce4a-11e6-8007-823fcac7a16b.png" width="22%"></img> 
 ##Sistema de Controle de Tarefas
-`git status`
 
 #1 MOTIVAÇÃO#
 
