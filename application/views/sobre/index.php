@@ -53,7 +53,7 @@
 					estilos CSS 3, HTML5, al&eacute;m do uso de trechos em JQuery. O
 					layout da aplica&ccedil;&atilde;o levou em
 					considera&ccedil;&atilde;o o conceito de mobile-first, j&aacute
-					primariamente dotado pelo framework bootstrap, assim como a
+					primariamente adotado pelo framework bootstrap, assim como a
 					diagrama&ccedil;&atilde;o das p&aacuteginas atrav&eacute;s do
 					sistema de grids adotado pelo mesmo. Tornando assim o sistema
 					responsivo e adaptado aos mais variados tamanhos de
