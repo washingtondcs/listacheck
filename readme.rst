@@ -1,4 +1,4 @@
-![logo Check](http://mawasol.com.br/listacheck/imgs/logoCheck2.png)
+![listaCheck](washingtondacosta.github.com/listacheck/imgs/logoCheck2.png)
 
 ----------
 ListaCheck
