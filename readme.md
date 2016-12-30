@@ -38,4 +38,5 @@ No mais, espero ter atendido as expectativas e requisitos do projeto. Quero dize
 
 _**Buscando sempre a satisfação de vencer desafios, encontrei na área de T.I. a minha vocação para contribuir com a sociedade de forma plena e objetiva.**_
 
+->This is text-align:right<-
 <right>Washington da Costa Silva</right>
