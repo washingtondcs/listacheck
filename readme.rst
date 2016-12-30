@@ -1,3 +1,5 @@
+![Alt Text](http://mawasol.com.br/listacheck/imgs/logoCheck2.png)
+
 ----------
 ListaCheck
 ----------
