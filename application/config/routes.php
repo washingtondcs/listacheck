@@ -54,6 +54,6 @@ $route['tarefas'] = 'tarefas';
 $route['tarefas/adicionar'] = 'tarefas/adicionar';
 $route['tarefas/editar/(:any)'] = 'tarefas/editar/$1';
 $route['tarefas/view/(:any)'] = 'tarefas/view/$1';
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'home';
 $route['sobre'] = 'sobre';
 
