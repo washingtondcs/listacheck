@@ -36,6 +36,6 @@ Para o desenvolvimento do projeto foi criada uma marca fictícia ListaCheck, ape
 
 No mais, espero ter atendido as expectativas e requisitos do projeto. Quero dizer que me diverti ao produzi-lo. Fico no aguardo de algum contato sobre o processo seletivo e fiquem com Deus, FELIZ ANO NOVO!
 
-_Buscando sempre a satisfação de vencer desafios, encontrei na área de T.I. a minha vocação para contribuir com a sociedade de forma plena e objetiva._
+_**Buscando sempre a satisfação de vencer desafios, encontrei na área de T.I. a minha vocação para contribuir com a sociedade de forma plena e objetiva.**_
 
 Washington da Costa Silva
