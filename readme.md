@@ -1,13 +1,11 @@
-<img src="https://cloud.githubusercontent.com/assets/17282308/21560764/ebd79726-ce4a-11e6-8007-823fcac7a16b.png" width="30%"></img> 
+<img src="https://cloud.githubusercontent.com/assets/17282308/21560764/ebd79726-ce4a-11e6-8007-823fcac7a16b.png" width="22%"></img> 
 
-----------
-ListaCheck
-----------
+
+#ListaCheck#
 **Sistema de Controle de Tarefas** 
 
-###########
-1 MOTIVAÇÃO
-###########
+
+#1 MOTIVAÇÃO#
 
 Este sistema web foi desenvolvido entre os dias 27 e 29 de dezembro de 2016 por mim, Washington da Costa Silva. E sua principal finalidade é servir como quesito de avaliação ao processo seletivo do cargo de Programador PHP Júnior, processo esse, promovido pelo órgão estadual Funceme - Fundação Cearense de Meteorologia e Recursos Hídricos. Nesta fase do processo de seleção, o desafio era criar uma aplicação web simples de gerenciamento de tarefas, no estilo to-do list.
 
