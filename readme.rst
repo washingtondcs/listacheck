@@ -3,8 +3,9 @@ ListaCheck
 **********
 Sistema de Controle de Tarefas
 
-
+***********
 1 MOTIVAÇÃO
+***********
 
 Este sistema web foi desenvolvido entre os dias 27 e 29 de dezembro de 2016 por mim, Washington da Costa Silva. E sua principal finalidade é servir como quesito de avaliação ao processo seletivo do cargo de Programador PHP Júnior, processo esse, promovido pelo órgão estadual Funceme - Fundação Cearense de Meteorologia e Recursos Hídricos. Nesta fase do processo de seleção, o desafio era criar uma aplicação web simples de gerenciamento de tarefas, no estilo to-do list.
 
@@ -18,7 +19,9 @@ f) Deletar tarefa.
 
 Foi permitida a utilização de frameworks de back-end e front-end para o desenvolvimento do projeto.
 
+********************************
 2 SOBRE A APLICAÇÃO DESENVOLVIDA
+********************************
 
 Foi utilizada a linguagem de programação PHP, juntamente com os frameworks de front-end: Bootstrap v3.3.7(última versão disponível) e back-end CodeIgniter v3.1.2 (última versão disponível), aliados ao uso da linguagem de marcação de folhas de estilos CSS 3, HTML5, além do uso de trechos em JQuery. O layout da aplicação levou em consideração o conceito de mobile-first, já primariamente dotado pelo framework bootstrap, assim como a diagramação das páginas através do sistema de grids adotado pelo mesmo. Tornando assim o sistema responsivo e adaptado aos mais variados tamanhos de resolução. Através do CodeIgniter foi utilizado o padrão de arquitetura MVC (Model-View-Controler) para a entidade tarefas. O arquivo com os registros realizados pelo sistema pode ser encontrado dentro do diretório raiz da aplicação dados/registros.db, as demais pastas principais estão na pasta application (ex: controllers,models e views).
 
