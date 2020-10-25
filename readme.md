@@ -34,7 +34,7 @@ Para o desenvolvimento do projeto foi criada uma marca fictícia ListaCheck, ape
 
 #4 CONSIDERAÇÕES#
 
-No mais, espero ter atendido as expectativas e requisitos do projeto. Quero dizer que me diverti ao produzi-lo. Fico no aguardo de algum contato sobre o processo seletivo e fiquem com Deus, FELIZ ANO NOVO!
+No mais, espero ter atendido as expectativas e requisitos do projeto. Quero dizer que me diverti ao produzi-lo.
 
 _**Buscando sempre a satisfação de vencer desafios, encontrei na área de T.I. a minha vocação para contribuir com a sociedade de forma plena e objetiva.**_
 
