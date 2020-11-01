@@ -77,4 +77,13 @@ class TarefasController extends Controller
 
 	}
 
+	public function listarTarefas(){
+		$tarefas = Tarefas::where('user_id','=',Auth::user()->id)->get();
+		$data = [
+            'tarefas'  => $tarefas
+        ];
+
+        return view('home',$data);
+	}
+
 }
