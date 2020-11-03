@@ -17,20 +17,13 @@ class AuthenticationTest extends TestCase
     public function test_user_can_view_a_login_form()
     {
         $response = $this->get('/login');
-
         $response->assertSuccessful();
         $response->assertViewIs('auth.login');
     }
 
-   /* public function test_criarUsuario()
-    {
-        $user = User::factory(100)->create();
-    }*/
-
     public function test_login(){
 
         $user = User::factory()->create();
-        
         $response = $this->from('/login')->post('/login', [
             'email' => $user->email,
             'password' => $user->password
@@ -42,30 +35,32 @@ class AuthenticationTest extends TestCase
         $this->assertGuest();
     }
 
-    public function test_user_cannot_view_a_login_form_when_authenticated()
+    public function test_usuario_nao_ver_form_login_autenticado()
     {
         $user = User::factory()->make();
-
         $response = $this->actingAs($user)->get('/login');
-
         $response->assertRedirect('/home');
     }
 
-    public function test_user_cannot_login_with_incorrect_password()
+    public function test_usuario_nao_pode_logar_com_senha_errada()
     {
         $user = User::factory()->create([
-            'password' => bcrypt('i-love-laravel'),
+            'password' => bcrypt('engenhariasoft'),
         ]);
         
         $response = $this->from('/login')->post('/login', [
             'email' => $user->email,
             'password' => 'invalid',
         ]);
-        
         $response->assertRedirect('/login');
         $response->assertSessionHasErrors('email');
         $this->assertTrue(session()->hasOldInput('email'));
         $this->assertFalse(session()->hasOldInput('password'));
         $this->assertGuest();
     }
+
+    /* public function test_criarUsuario()
+    {
+        $user = User::factory(100)->create();
+    }*/
 }
