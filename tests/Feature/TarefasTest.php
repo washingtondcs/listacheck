@@ -15,7 +15,7 @@ class TarefasTest extends TestCase
      *
      * @return void
      */
-    public function test_usario_ver_home_com_lista_de_tarefas()
+    public function test_usuario_ver_home_com_lista_de_tarefas()
     {
         $user = User::factory()->create();
         $url = route('login');
