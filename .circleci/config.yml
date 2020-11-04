@@ -57,7 +57,7 @@ jobs:
 
       - run:
           name: "Run Http Tests"
-          command: ./vendor/bin/phpunit tests/Feature
+          command: ./vendor/bin/phpunit
 
       - run:
           name: "Install Dusk and Update Chrome Drivers"
