@@ -24,6 +24,11 @@ jobs:
       - run: sudo apt update # PHP CircleCI 2.0 Configuration File# PHP CircleCI 2.0 Configuration File sudo apt install zlib1g-dev libsqlite3-dev
       - run: sudo docker-php-ext-install zip
 
+      - run:
+          name: "Create Environment file"
+          command: |
+            mv .env.testing .env
+
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -38,6 +43,10 @@ jobs:
           key: v1-dependencies-{{ checksum "composer.json" }}
           paths:
             - ./vendor
+      - run:
+          name: "Generate App key"
+          command: php artisan key:generate
+          
       - restore_cache:
           keys:
             - node-v1-{{ checksum "package.json" }}
