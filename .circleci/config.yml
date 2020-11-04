@@ -61,5 +61,9 @@ jobs:
 
       # run tests with phpunit or codecept
       - run: ./vendor/bin/phpunit
+      - run:
+          name: Run Laravel Server
+          command: php artisan serve
+          background: true
       #- run: ./vendor/bin/codecept build
       #- run: ./vendor/bin/codecept run
