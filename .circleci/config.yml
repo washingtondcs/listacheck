@@ -23,7 +23,6 @@ jobs:
 
       - run: sudo apt update # PHP CircleCI 2.0 Configuration File# PHP CircleCI 2.0 Configuration File sudo apt install zlib1g-dev libsqlite3-dev
       - run: sudo docker-php-ext-install zip
-      - run: php artisan key:generate
 
       # Download and cache dependencies
       - restore_cache:
@@ -49,6 +48,7 @@ jobs:
           key: node-v1-{{ checksum "package.json" }}
           paths:
             - node_modules
+      - run: php artisan key:generate
 
       # prepare the database
       - run: touch database/database.sqlite
