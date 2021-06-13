@@ -15,6 +15,7 @@
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
+        "monolog/monolog": "^2.1",
         "twbs/bootstrap": "^4.5"
     },
     "require-dev": {
@@ -58,9 +59,13 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ],
+<<<<<<< HEAD
         
+=======
+>>>>>>> fdfce78e22f4cb887759b78e663a1aa10b1802fb
         "test": [
             "vendor/bin/phpunit"
         ]
     }
+
 }

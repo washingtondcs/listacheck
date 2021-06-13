@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-xs-12">
             <div class="page-header d-print-none">
-                <h1>Tarefas</h1>
+                <h1>Minhas Tarefas</h1>
                 <p>Gerenciamento de tarefas</p>
             </div>
 
